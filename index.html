@@ -1,0 +1,157 @@
+<!DOCTYPE HTML>
+<html>
+
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+	<link rel="icon" href="images/icone.png">
+	<title>Kally™ Bot</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<meta name="name" content="Kally™ - O Melhor Bot para seu Servidor Discord!">
+	<meta name="description"
+		content="Kally™ Bot é uma aplicação para servidores Discord com o a função de dj os membros e entreter o seu servidor! Com comandos de Diversão, Moderação, Utilidades, Configurações e Música">
+	<meta name="keywords" content="Kally™, Bot, Discord, Server, Servidores, NSFW, Diversão">
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<noscript>
+		<link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	<script type="text/javascript">
+		var message = "Você não pode usar o Botão direito, pois ele foi desativado!";
+		function clickIE() { if (document.all) { (message); return false; } }
+		function clickNS(e) {
+			if
+				(document.layers || (document.getElementById && !document.all)) {
+				if (e.which == 2 || e.which == 3) { (message); return false; }
+			}
+		}
+		if (document.layers) { document.captureEvents(Event.MOUSEDOWN); document.onmousedown = clickNS; }
+		else { document.onmouseup = clickNS; document.oncontextmenu = clickIE; }
+		document.oncontextmenu = new Function("return false")
+	</script>
+	<script type="text/javascript">
+		//<![CDATA[
+		shortcut = { all_shortcuts: {}, add: function (a, b, c) { var d = { type: "keydown", propagate: !1, disable_in_input: !1, target: document, keycode: !1 }; if (c) for (var e in d) "undefined" == typeof c[e] && (c[e] = d[e]); else c = d; d = c.target, "string" == typeof c.target && (d = document.getElementById(c.target)), a = a.toLowerCase(), e = function (d) { d = d || window.event; if (c.disable_in_input) { var e; d.target ? e = d.target : d.srcElement && (e = d.srcElement), 3 == e.nodeType && (e = e.parentNode); if ("INPUT" == e.tagName || "TEXTAREA" == e.tagName) return } d.keyCode ? code = d.keyCode : d.which && (code = d.which), e = String.fromCharCode(code).toLowerCase(), 188 == code && (e = ","), 190 == code && (e = "."); var f = a.split("+"), g = 0, h = { "`": "~", 1: "!", 2: "@", 3: "#", 4: "$", 5: "%", 6: "^", 7: "&", 8: "*", 9: "(", 0: ")", "-": "_", "=": "+", ";": ":", "'": '"', ",": "<", ".": ">", "/": "?", "\\": "|" }, i = { esc: 27, escape: 27, tab: 9, space: 32, "return": 13, enter: 13, backspace: 8, scrolllock: 145, scroll_lock: 145, scroll: 145, capslock: 20, caps_lock: 20, caps: 20, numlock: 144, num_lock: 144, num: 144, pause: 19, "break": 19, insert: 45, home: 36, "delete": 46, end: 35, pageup: 33, page_up: 33, pu: 33, pagedown: 34, page_down: 34, pd: 34, left: 37, up: 38, right: 39, down: 40, f1: 112, f2: 113, f3: 114, f4: 115, f5: 116, f6: 117, f7: 118, f8: 119, f9: 120, f10: 121, f11: 122, f12: 123 }, j = !1, l = !1, m = !1, n = !1, o = !1, p = !1, q = !1, r = !1; d.ctrlKey && (n = !0), d.shiftKey && (l = !0), d.altKey && (p = !0), d.metaKey && (r = !0); for (var s = 0; k = f[s], s < f.length; s++)"ctrl" == k || "control" == k ? (g++, m = !0) : "shift" == k ? (g++, j = !0) : "alt" == k ? (g++, o = !0) : "meta" == k ? (g++, q = !0) : 1 < k.length ? i[k] == code && g++ : c.keycode ? c.keycode == code && g++ : e == k ? g++ : h[e] && d.shiftKey && (e = h[e], e == k && g++); if (g == f.length && n == m && l == j && p == o && r == q && (b(d), !c.propagate)) return d.cancelBubble = !0, d.returnValue = !1, d.stopPropagation && (d.stopPropagation(), d.preventDefault()), !1 }, this.all_shortcuts[a] = { callback: e, target: d, event: c.type }, d.addEventListener ? d.addEventListener(c.type, e, !1) : d.attachEvent ? d.attachEvent("on" + c.type, e) : d["on" + c.type] = e }, remove: function (a) { var a = a.toLowerCase(), b = this.all_shortcuts[a]; delete this.all_shortcuts[a]; if (b) { var a = b.event, c = b.target, b = b.callback; c.detachEvent ? c.detachEvent("on" + a, b) : c.removeEventListener ? c.removeEventListener(a, b, !1) : c["on" + a] = !1 } } }, shortcut.add("esc", function () { top.location.href = "index.html" }); shortcut.add("Ctrl+F", function () { top.location.href = "index.html" }); shortcut.add("Ctrl+C", function () { top.location.href = "index.html" }); shortcut.add("Ctrl+V", function () { top.location.href = "index.html" }); shortcut.add("Ctrl+Shift+Del", function () { top.location.href = "index.html" }); shortcut.add("Ctrl+W", function () { top.location.href = "index.html" }); shortcut.add("Ctrl+U", function () { top.location.href = "index.html" }); shortcut.add("F12", function () { top.location.href = "index.html" }); shortcut.add("F11", function () { top.location.href = "index.html" }); shortcut.add("F3", function () { top.location.href = "index.html" }); shortcut.add("F4", function () { top.location.href = "index.html" }); shortcut.add("F1", function () { top.location.href = "index.html" });
+			  //]]>
+	</script>
+
+	<audio id="soundtrck" autoplay="autoplay" loop>
+		<source src="assets/sounds/sound.mp3" type="audio/mp3">
+	</audio>
+	<script>
+		var vid = document.getElementById("soundtrck");
+		vid.volume = 0.5;
+	</script>
+</head>
+
+<body class="is-preload">
+
+	<!-- Wrapper -->
+	<div id="wrapper">
+
+		<!-- Header -->
+		<header id="header">
+			<div class="logo">
+				<img src="images/logo.png" alt="" width="100%" />
+			</div>
+			<div class="content">
+				<div class="inner">
+					<h1>Kally™</h1>
+					<p>A melhor Bot para seu servidor!
+						<br>Comandos de Diversão para os membros do seu servidor.
+						<br>Funções de Dj para os usúarios do seu servidor.
+						<br>Configurações de Logs para registro de auditoria servidor.
+						<br>Utilidades para mostrar informações incriveis de membros.
+						</p>
+				</div>
+			</div>
+			<nav>
+				<ul>
+					<li><a
+							href="https://discord.com/oauth2/authorize?client_id=817207028169965589&permissions=8&scope=bot">Convite</a>
+					</li>
+					<li><a href="#sobre">Sobre</a></li>
+					<li><a href="#doar">Donate</a></li>
+					<li><a href="https://discord.gg/nNARQUgSuX">Suporte</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<!-- Main -->
+		<div id="main">
+			<!-- Sobre -->
+			<article id="sobre">
+				<h2 class="major">INFORMAÇÕES GERAIS</h2>
+				<span class="image main"><img src="images/pic02.gif" alt="" /></span>
+				<p>A Kally™ é uma Aplicação para Servidores do Discord, que está sendo desenvolvida por amigos.
+					Sendo um Bot Misto, a Kally™ tem varios tipos de comandos separados por categoria. Que ajuda na
+					procura de diversos comandos.</p>
+				<p>Caso você tenha um servidor com um outro Bot com o Mesmo Prefixo da Kally™, e esteja com medo de
+					chamar os dois em um comando especifico, você pode usa o comando <code>setprefix</code>, e assim
+					mudar o Prefixo da Kally™ no seu Servidor ou Comunidade.</p>
+				<h2 class="major">PERGUNTAS GERAIS</h2>
+				<h3>Onde é lançado as atualizações da Kally™?</h3>
+				<p>Todas as Atualizações e Manutenções que estão ocorrendo na Kally™, são mostradas no servidor de
+					suporte,
+					onde os desenvolvedores irão notificar sobre todas as informações.
+				</p>
+				<h3>Como posso remover os meus Dados da Kally™?</h3>
+				<p>A Kally™ não armazena muitas dados importantes no banco de dados, mais caso você queira que seus
+					dados sejam removidos,
+					é necessário você fazer uma solicitação para os meus desenvolvedores informando sobre a sua remoção
+					de dados.
+				</p>
+				<h3>Eu tenho uma sugestão, onde mando?</h3>
+				<p>Você pode mandar a sua sugestão para os meus desenvolvedores, usando o canal
+					<code>sugestões</code>, assim pedindo o conteúdo da sua sugestão. A mesma coisa se aplica para
+					reportes,
+					use o canal <code>report-dev</code> e mande a descrição do seu reporte.</p>
+				<h2 class="major">VOTOS</h2>
+				<p>Os Votos são uma forma de apoiar a Kally™, caso você não tenha dinheiro para doar para mim, você
+					pode ajudar ela
+					a crescer mais de forma gratuita! Basicamente seu voto faz a Kally™ ficar popular no <a
+						href="https://top.gg/bot/817207028169965589">Top.gg</a>, uma plataforma de divulgação
+					de Aplicações para Discord.</p>
+
+			</article>
+			<article id="doar">
+				<h2 class="major">DOAÇÃO</h2>
+				<span class="image main"><img src="images/donate.png" alt="" /></span>
+				<p>A Doação serve para você que usa a Kally™ ajudar e apoiar ela, doando qualquer quantia de dinheiro,
+					mesmo sendo um valor muito baixo, já será de grande ajuda para mim! Todo dinheiro que é arrecadado
+					será investido 90% na hospedagem e 10% para os desenvolvedores. A plataforma de doação que eu
+					uso é o Mercado Pago , mais caso não tenha, você pode votar em mim e vai me ajudar muito!</p>
+				<p>Caso você queira doar para mim, clique no link abaixo e você será enviado para o Mercado Pago , e coloque a
+					quantia que você quiser.</p>
+				<p><a
+						href="https://mpago.la/258Gqre">Doações
+						Aqui!</a>
+						
+				<p>
+			</article>
+		</div>
+	
+		<a href="https://top.gg/bot/817207028169965589">
+			<img src = "https://top.gg/api/widget/817207028169965589.svg" alt = "Kally ™" />
+			</a>
+	
+
+		<!-- Footer -->
+		<footer id="footer">
+			<p class="copyright">Copyright &copy; 2021 Todos Os Direitos Resenvados | Kally™ Bot</p>
+		</footer>
+
+	</div>
+
+
+	<div id="bg"></div>
+
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+	</script>
+        
+</body>
+
+
+
+</html>
